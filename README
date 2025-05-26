@@ -1,17 +1,26 @@
-Calculator Web App
+# Calculator Web App
 
-A simple on-screen calculator built with HTML, CSS, and JavaScript.
+![Calculator screenshot](img.png)
 
-Usage
+A lightweight on-screen calculator built with plain HTML, CSS, and JavaScript.  
+Enter a first number, pick an operator, enter a second number, then hit `=` to see the result.
 
-Clone this repository:
+## Features
 
-git clone <https://github.com/AustinFash/WebCalculator>
+- Addition, subtraction, multiplication and division
+- Clear button resets everything
+- Snarky error if you try to divide by zero
+- Prevents accidental consecutive-operator presses
+- Rounds long decimals to fit the display
 
-Open the project folder in your editor of choice.
+## Usage
 
-Use the Live Preview (for example, VS Code Live Server) to open index.html in your browser.
-
-Interact with the calculator to perform basic arithmetic operations.
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/AustinFash/WebCalculator.git
+   ```
+2. **Open the folder** in your editor of choice.
+3. **Start Live Preview** (e.g. VS Code Live Server) on `index.html`.
+4. **Click** the buttons to perform arithmetic operations.
 
 Enjoy! 🎉
