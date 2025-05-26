@@ -15,6 +15,7 @@
 }
 .calc-container{
     justify-items: center;
+    margin-bottom: 100px;
 }
 .calc{
      border-color:black;
@@ -22,28 +23,41 @@
     width: 400px;
     height: 600px;
     justify-content: center;
+    background-color: #c0c0c0;
 }
-.display{
-    width: 300px;
-    height: 50px;
+
+.display,
+.button {
     border-color:black;
     border-style: solid;
+    align-items: center;
+}
+
+.display{
+    width: 350px;
+    height: 80px;
     margin: 40px;
     justify-self: center;
+    align-content: center;
     text-align: end;
+    font-size: 48px;
+    padding-right: 5px;
+    border-width: 3px;
+    background-color:#f0f0f0 ;
 }
 .button-grid{
     margin: 20px;
+    background-color: #c0c0c0;
 }
-.button{
-    width: 80px;
-    height: 80px;
-    border-color:black;
-    border-style: solid;
+button{
+    width: 86px;
+    height: 86px;
     display: inline-flex;
-    font-size: 24px;
+    font-size: 36px;
     margin:.1px;
     margin-top:.5px;
     margin-bottom: .5px;
-    
+    justify-content: center;
+    border-width: 3px;
+    background-color: #b0b0b0;
 }
