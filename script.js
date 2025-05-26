@@ -87,8 +87,8 @@ btndivide.addEventListener('click',function() {
 });
 
 btnclear.addEventListener('click',function() {
-    num1 = null;
-    num2 = null;
+    num1 = ""
+    num2 = ""
     operand = "";
     display.textContent = ""
 });
