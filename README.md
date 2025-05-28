@@ -2,6 +2,8 @@
 
 ![Calculator screenshot](img.png)
 
+Check it out here: [WebCalculator](web-calculator-9ayqqktzn-austin-fashs-projects.vercel.app)
+
 A lightweight on-screen calculator built with plain HTML, CSS, and JavaScript.  
 Enter a first number, pick an operator, enter a second number, then hit `=` to see the result.
 
